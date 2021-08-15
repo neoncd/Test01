@@ -5,11 +5,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/Board")
+@RequestMapping("/board")
 public class BoardController {
 
     @GetMapping("/list")
-    public String list() {
-        return "Board/list";
+    public String mylist() {
+        return "board/list";
     }
 }
