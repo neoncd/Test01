@@ -8,6 +8,5 @@ public class Test01Controller {
     @GetMapping
     public String index(){
         return "index";
-
     }
 }
